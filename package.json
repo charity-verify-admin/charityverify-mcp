@@ -1,0 +1,20 @@
+{
+  "name": "charityverify-mcp",
+  "version": "1.0.2",
+  "description": "MCP server for CharityVerify — look up trust grades, verdicts, and analysis for 138,000+ Canadian charities",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "charityverify-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "charity", "canada", "verification", "trust", "nonprofit"],
+  "mcpName": "io.github.charity-verify-admin/charityverify-mcp",
+  "author": "CharityVerify",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}
