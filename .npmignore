@@ -1,0 +1,3 @@
+.mcpregistry_*
+.git
+node_modules
